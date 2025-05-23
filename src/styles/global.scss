@@ -1,0 +1,12 @@
+@use './fonts';
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
