@@ -1,0 +1,19 @@
+@use '../../../styles/index.scss' as *;
+
+.nav-default {
+  @include typo('body1');
+  display: block;
+  width: fit-content;
+  color: $color-text-400;
+}
+
+.nav-active {
+  @extend .nav-default;
+  &::after {
+    content: '';
+    display: block;
+    margin-top: 8px;
+    border-top: 1px solid $color-primary;
+    width: 100%;
+  }
+}

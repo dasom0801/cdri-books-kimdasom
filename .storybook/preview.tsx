@@ -1,6 +1,8 @@
 import type { Preview } from '@storybook/react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { MemoryRouter } from 'react-router';
+import '../src/styles/global.scss';
+
 const queryClient = new QueryClient();
 
 const preview: Preview = {

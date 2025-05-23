@@ -1,3 +1,4 @@
+@use './base/reset';
 @use './fonts';
 
 body {
@@ -9,4 +10,14 @@ input,
 textarea,
 select {
   font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
