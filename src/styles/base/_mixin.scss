@@ -1,0 +1,8 @@
+@use './_variables' as *;
+
+@mixin typo($style) {
+  $values: map-get($typography, $style);
+  font-weight: map-get($values, weight);
+  font-size: map-get($values, size);
+  line-height: map-get($values, lineHeight);
+}

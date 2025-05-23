@@ -1,0 +1,62 @@
+// 주요 텍스트용
+$color-text-primary-100: #000000;
+$color-text-primary-200: #1a1e27;
+$color-text-primary-300: #222222;
+$color-text-primary-400: #353c49;
+$color-text-primary-500: #8d94a0;
+$color-text-primary-600: #979797;
+
+$color-gray-100: #b1b8c0;
+$color-gray-200: #d2d6da;
+
+$color-gray-light-100: #f2f3f6;
+$color-gray-light-200: #6d7582;
+
+$color-primary: #4880ee;
+
+$color-red: #e84118;
+
+$color-white: #ffffff;
+
+$typography: (
+  'title1': (
+    weight: 700,
+    size: 24px,
+    lineHeight: 24px,
+  ),
+  'title2': (
+    weight: 700,
+    size: 24px,
+    lineHeight: 22px,
+  ),
+  'title3': (
+    weight: 700,
+    size: 18px,
+    lineHeight: 18px,
+  ),
+  'body1': (
+    weight: 500,
+    size: 20px,
+    lineHeight: 20px,
+  ),
+  'body2': (
+    weight: 500,
+    size: 14px,
+    lineHeight: 14px,
+  ),
+  'body2-bold': (
+    weight: 700,
+    size: 14px,
+    lineHeight: 14px,
+  ),
+  'caption': (
+    weight: 500,
+    size: 16px,
+    lineHeight: 16px,
+  ),
+  'small': (
+    weight: 500,
+    size: 10px,
+    lineHeight: 10px,
+  ),
+);
